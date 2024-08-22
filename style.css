@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+:root{
+    --darkBlue2: #022C5D;
+    --darkBlue: #012C58;
+    --kala: #000000;
+    --nila: #2FC4EE;
+    --ofwhite: #F2F2F2;
+    --white: #FFFFFF;
+    --jamni:#485E72;
+    --darknila:#1877F2;
+    --red:#FC6A1F;
+    --lightkala:#0E3D4A;
+    --pink:#EAEAEA;
+    --mati:#9A9A9A;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+.firstcontainer{
+    margin: auto;
+    width: 80%;
+}
+nav{
+    display: flex;
+    background-color: var(--white);
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav_left h1{
+    font-size: 30px;
+    font-family: 'roboto';
+    font-weight: 700;
+    /* font-size: 26px; */
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: var(--darkBlue2);
+}
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav_right ul li a.active {
+    background-color: var(--darkBlue2);
+    color:var(--white); 
+    border-radius: 50px;
+    padding: 11px 20px;
+}
+/* ***************************Section2 started *******************************  */
+.herosection{
+    height: 82vh;
+    width: 100%;
+    background-color:var(--nila);
+
+}
+
+
+.textpic{
+    display: flex;
+    align-items: center;
+    padding-top:60px ;
+    position: relative;
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero_text p{
+    color: var(--darkBlue);
+    font-family: 'Italiana';
+    font-size: 20px;
+}
+.hero_text h1{
+    color: var(--kala);
+    font-family: 'roboto';
+    font-size: 107px;
+    font-weight: 700;
+    width: 600px;
+    letter-spacing: 3px;
+}
+.hero_text h1 span{
+    color: var(--red);
+}
+ .btn{
+    color: var(--white);
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: 500;
+    background-color: var(--red);
+    border-radius: 5px;
+    /* padding: 11px 0px; */
+    border: 1px solid var(--red);
+    height: 43px;
+    width: 158px;
+    white-space: nowrap;
+    margin-top: 30px;
+}
+
+.heroimg img{
+    width: 685px;
+    position: absolute;
+    left:43%;
+    top: 50px;
+    
+}
+
+/* ***************************Section3 started *******************************  */
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:50px 0;
+    /* border: 2px solid goldenrod; */
+}
+.service h6{
+    color: var(--red);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+}
+.service h3{
+    color: var(--red);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 26px;
+    text-transform:none;
+}
+.cardline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    /* border: 2px solid rebeccapurple; */
+    width: 100%;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid goldenrod; */
+    justify-content: center;
+    align-items: center;
+    height:134px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card img{
+    width: 80px;
+    height: 80px;
+    /* font-size: 400px; */
+    padding: 10px;
+}
+.card p{
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 800;
+}
+.about{
+    margin-top: 40px;
+    /* border: 2px solid gold; */
+    display: flex;
+    gap: 30px;
+}
+.aboutleft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.aboutleft h1{
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.aboutleft p{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: 'roboto';
+    margin-top: -3px;
+}
+.aboutleft h5{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'roboto';
+    margin-top: -15px;
+    width: 300px;
+}
+.btn1{
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 5px;
+    border: 1px solid var(--red);
+    height: 43px;
+    width: 138px;
+    /* margin-top: -10px; */
+}
+.aboutright img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ***************************Section4 started *******************************  */
+
+.section4{
+    background-color: var(--nila);
+    height: 74vh;
+    width: 100%;
+    margin-bottom: 20%;
+}
+.ourdoctors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:50px 0;
+}
+.ourdoctors h6{
+    color: var(--red);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 30px;
+}
+.ourdoctors h3{
+    color: var(--white);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 40px;   
+    padding-bottom: 10px; 
+}
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.card2{
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card2 img{
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    height: 299px;
+    width: 100%;
+}
+.cardcontent{
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cardcontent h4{
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.cardcontent p{
+    width: 220px;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+.arrow{
+display:  flex;
+align-items: center;
+gap: 10px;
+}
+.arrow i{
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 50%;
+    padding: 10px;
+}
+.arrow p{
+    letter-spacing: 1px    ;
+    color: var(--red);
+}
+/* ***************************Section5 started *******************************  */
+.section5{
+ width: 100%;
+ height: 50vh;
+ /* border: 6px solid red; */
+}
+
+.bestmedi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bestmedi h1{
+    width: 500px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--darkBlue2);
+    padding-bottom: 4%;
+    text-align: center;
+    /* border: 2px solid blue; */
+}
+/* <!-- ***************************Section6 started *******************************  --> */
+.section6{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--nila);
+   }
+.card3{
+        border-radius: 10px;
+        width: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: relative;
+        border-radius: 30px 0 30px 0;
+        background-color: var(--white);
+        /* padding-top: 20px; */
+}
+.card3 img{
+    position: absolute;
+    size: 30px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    top: -40;
+    left: 150px;
+    object-fit: cover;
+}
+.cContent{
+align-items: center;
+display: flex;
+flex-direction: column;
+    gap:20px;
+padding: 60px 60px;
+text-align: center;
+
+}
+.namenumber{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.namenumber h4{
+    color: var(--kala);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.namenumber p{
+    color: var(--red);
+    text-align: center;
+}
+.socialmedia{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+.fa-square-facebook, .fa-linkedIn{
+    color:var(--darknila);
+}
+.fa-twitter{
+    color: var(--nila);
+}
+.fa-youtube{
+    color: var(--red);
+}
+.card3 .arrow i{
+    font-size: 10px;
+    width: 15px;
+    text-align: center;
+    padding: 2px;
+    height: 15px;
+}
+.card3 .arrow P{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+.card3 p{
+    font-size: 16px;
+    padding-bottom: 6%;
+}
+/* <!-- ***************************Sectionlast started *******************************  --> */
+
+.footer{
+    background-color: var(--jamni);
+    width: 100%;
+    height: 64vh;
+}
+.footerbox{
+    padding: 60px 0;
+}
+.footerdetailbox{
+    display: flex;
+    gap: 8px;
+    padding-top: 50px;
+}
+.footerdetailbox h3{
+    color: var(--white);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.box1 p{
+    color: var(--white);
+    font-size: 15px;
+    width: 260px;
+    font-weight: 300;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.contectbox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+.contect2box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* padding-top: 20px; */
+}
+.contectbox1,.contectbox2,.contectbox3{
+    display: flex;
+    gap: 10px;
+}
+.contectbox1 p,.contectbox2 p,.contectbox3 p{
+    color: var(--white);
+    font-size: 14px;
+    padding-bottom: 0;
+}
+.contectbox1 i,.contectbox2 i,.contectbox3 i{
+    color: var(--white);
+    font-size: 20px;
+}
+.lasttbox{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+.datarow{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.datarow h4{
+    color: var(--white);
+    width: 50%;
+    font-weight: 300;
+}
+.socialmedia2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.socialmedia2 i{
+  color: var(--white);
+  font-size: 24px;
+ 
+}
+/* <!-- ***************************Section7 started *******************************  --> */
+.section7{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(255, 126, 95, 0.5),
+     rgba(119, 185, 240, 0.5)), url('imgs/emergency.png');
+    /* background-image: url('imgs/emergency.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.text_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text_area h1{
+    font-size: 40px;
+    font-weight:600;
+    color:var(--lightkala);
+    width: 400px;
+    padding-bottom: 10px;
+}
+.text_area span{
+    color: var(--red);
+}
+
+/* <!-- ***************************Section8 started *******************************  --> */
+.section8{
+    width: 100%;
+    height: 90vh;
+}
+.boxforform{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.leftside{
+    /* background-image: url(imgs/1Dr.png); */
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid gray; */
+    position: relative;
+}
+.leftside img{
+    object-fit:cover;
+    border-radius: 50%;
+    height:440px;
+    width: 440px;
+    position: absolute;
+    top: 50px;
+}
+.rightside{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid gray; */
+    /* text-align: center; */
+}
+.rightside h6{
+    color:var(--red);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.rightside h1{
+    color: var(--kala);
+    font-size:   40px;
+    font-weight: 700;
+    width: 390px;
+    letter-spacing: 2px;
+}
+.rightside span{
+    color: var(--red);
+} 
+
+.feild{
+    display: flex;
+    /* flex-direction: ; */
+    gap: 15px;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.usermail, .username{
+    width: 100%;
+}
+
+.username input, .usermail input{
+    color: var(--mati);
+    background-color:var(--pink);
+    padding: 1px 20px;
+    height: 40px;
+    width: 100%;
+    border:none;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+#txtarea{
+    height: 150px;
+    width: 100%;
+    color: var(--mati);
+    background-color:var(--pink);
+    padding: 1px 20px;
+    border:none;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.btnn{
+    width: fit-content;
+    padding: 12px 5px;
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: 500;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.btnn p{
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* <!-- ***************************Section9 started *******************************  --> */
+
+.Section9{
+    background-color: var(--white);
+    width: 100%;
+    height: 70vh;
+    /* border: 2px solid rebeccapurple; */
+    padding:60px 0;
+}
+.clintsay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.clintsay h1{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+}
+.clintdata{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.msg img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.msg h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--kala);
+    padding-bottom: 0;
+}
+.msg p{
+    width: 280px;
+}
