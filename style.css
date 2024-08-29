@@ -24,6 +24,7 @@
     margin: auto;
     width: 80%;
 }
+ 
 nav{
     display: flex;
     background-color: var(--white);
@@ -69,20 +70,16 @@ li{
     border-radius: 50px;
     padding: 11px 20px;
 }
+
+
 /* ***************************Section2 started *******************************  */
 .herosection{
-    height: 82vh;
-    width: 100%;
+    padding: 50px 0px;
     background-color:var(--nila);
-
 }
-
-
 .textpic{
     display: flex;
     align-items: center;
-    padding-top:60px ;
-    position: relative;
 }
 .hero_text{
     display: flex;
@@ -98,10 +95,10 @@ li{
 .hero_text h1{
     color: var(--kala);
     font-family: 'roboto';
-    font-size: 107px;
+    font-size: 6rem;
     font-weight: 700;
     width: 600px;
-    letter-spacing: 3px;
+    
 }
 .hero_text h1 span{
     color: var(--red);
@@ -122,11 +119,8 @@ li{
 }
 
 .heroimg img{
-    width: 685px;
-    position: absolute;
-    left:43%;
-    top: 50px;
-    
+    width: 550px;
+    /* margin-left: -70px;    */
 }
 
 /* ***************************Section3 started *******************************  */
@@ -148,10 +142,9 @@ li{
 }
 .service h3{
     color: var(--red);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 26px;
-    text-transform:none;
+    margin-top: -12px;
 }
 .cardline{
     display: flex;
@@ -169,7 +162,9 @@ li{
     justify-content: center;
     align-items: center;
     height:134px;
+    padding: 3px;;
     width: 200px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card img{
@@ -184,29 +179,28 @@ li{
     font-weight: 800;
 }
 .about{
-    margin-top: 40px;
-    /* border: 2px solid gold; */
+    padding-top: 40px;
     display: flex;
-    gap: 30px;
+    justify-content:space-between;
+    /* gap: 30px; */
+    /* border: 2px solid gold; */
+    /* align-items: center; */
 }
 .aboutleft{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
-.aboutleft h1{
-    font-family: 'roboto';
+.about .aboutleft h3{
     font-weight: 700;
-    font-size: 40px;
-    letter-spacing: 2px;
+    font-size: 41px;
+    color: var(--kala);
 }
 .aboutleft p{
     width: 400px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    font-family: 'roboto';
-    margin-top: -3px;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 2px;
 }
 .aboutleft h5{
     font-size: 18px;
@@ -229,15 +223,16 @@ li{
 }
 .aboutright img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 550px;
 }
 
 /* ***************************Section4 started *******************************  */
 
 .section4{
     background-color: var(--nila);
-    height: 66vh;
-    width: 100%;
-    margin-bottom: 20%;
+    /* height: 100%; */
+    /* width: 100%; */
+    /* padding-bottom: 50%; */
 }
 .ourdoctors{
     display: flex;
@@ -251,33 +246,34 @@ li{
     color: var(--red);
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 30px;
+    font-size: 18px;
 }
 .ourdoctors h3{
     color: var(--white);
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 40px;   
-    padding-bottom: 10px; 
+    font-weight: 700;
+    font-size: 26px; 
+    margin-top: -12px;  
+    padding-bottom: 60px;
 }
-.cardcontainer{
+.cardcontainer2{
     display: flex;
     flex-direction: row;
+    /* border: 20px solid red; */
     justify-content: space-between;
     gap: 15px;
     width: 100%;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 .card2{
     border-radius: 10px;
-    width: 400px;
+    /* width: 400px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card2 img{
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
-    height: 299px;
+    height: 164px;
     width: 100%;
 }
 .cardcontent{
@@ -314,17 +310,19 @@ gap: 10px;
     color: var(--red);
 }
 /* ***************************Section5 started *******************************  */
-.section5{
+/* .section5{
  width: 100%;
  height: 50vh;
- /* border: 6px solid red; */
-}
+ border: 6px solid red;
+ margin-top: -100px;
+} */
 
 .bestmedi{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 50px;
 }
 .bestmedi h1{
     width: 500px;
@@ -338,13 +336,42 @@ gap: 10px;
 }
 /* <!-- ***************************Section6 started *******************************  --> */
 .section6{
-    width: 100%;
-    height: 100vh;
+    /* width: 100%;
+    height: 100vh; */
     background-color: var(--nila);
+    padding: 60px 0;
+   }
+   .ourservices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+   .ourservices h6{
+    color: var(--red);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.ourservices h3{
+    color: var(--white);
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 50px;
+
+}
+   
+   .cardcontainer3{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+
    }
 .card3{
         border-radius: 10px;
-        width: 400px;
+        /* width: 400px; */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         position: relative;
         border-radius: 30px 0 30px 0;
@@ -357,18 +384,21 @@ gap: 10px;
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    top: -40;
-    left: 150px;
+    top: -40px;
+    left: 130px;
     object-fit: cover;
 }
 .cContent{
 align-items: center;
 display: flex;
 flex-direction: column;
-    gap:20px;
-padding: 60px 60px;
+    gap:10px;
+padding: 60px 40px;
 text-align: center;
-
+}
+.cContent p{
+    font-size: 14px;
+    font-weight: 300;
 }
 .namenumber{
     display: flex;
@@ -419,8 +449,8 @@ text-align: center;
 
 .footer{
     background-color: var(--jamni);
-    width: 100%;
-    height: 64vh;
+    /* width: 100%;
+    height: 64vh; */
 }
 .footerbox{
     padding: 60px 0;
@@ -497,8 +527,8 @@ text-align: center;
 }
 /* <!-- ***************************Section7 started *******************************  --> */
 .section7{
-    width: 100%;
-    height: 70vh;
+    /* width: 100%; */
+    height:60vh;
     background-image: linear-gradient(rgba(255, 126, 95, 0.5),
      rgba(119, 185, 240, 0.5)), url('imgs/emergency.png');
     /* background-image: url('imgs/emergency.png'); */
@@ -531,29 +561,29 @@ text-align: center;
 }
 
 /* <!-- ***************************Section8 started *******************************  --> */
-.section8{
+/* .section8{
     width: 100%;
     height: 90vh;
-}
+} */
 .boxforform{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    /* gap: 10px; */
     padding-top: 60px;
     padding-bottom: 30px;
 }
 .leftside{
     /* background-image: url(imgs/1Dr.png); */
     width: 40%;
-    height: 100%;
+    /* height: 100%; */
     /* border: 2px solid gray; */
     position: relative;
 }
 .leftside img{
     object-fit:cover;
     border-radius: 50%;
-    height:440px;
-    width: 440px;
+    height:380px;
+    width: 380px;
     position: absolute;
     top: 50px;
 }
@@ -562,8 +592,6 @@ text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* border: 2px solid gray; */
-    /* text-align: center; */
 }
 .rightside h6{
     color:var(--red);
@@ -609,7 +637,7 @@ text-align: center;
     width: 100%;
     color: var(--mati);
     background-color:var(--pink);
-    padding: 1px 20px;
+    padding: 14px 20px;
     border:none;
     font-size: 14px;
     border-radius: 8px;
@@ -633,8 +661,8 @@ text-align: center;
 
 .Section9{
     background-color: var(--white);
-    width: 100%;
-    height: 70vh;
+    /* width: 100%;
+    height: 70vh; */
     /* border: 2px solid rebeccapurple; */
     padding:60px 0;
 }
@@ -679,3 +707,549 @@ text-align: center;
 .msg p{
     width: 280px;
 }
+
+/******************************** CSS Responsive  ***************************/
+ 
+ @media (min-width: 320px) and (max-width: 395px){  
+   nav{
+       flex-wrap: wrap;
+       white-space: nowrap;    
+       height: auto;
+       gap: 15px;
+       align-items: center;
+       justify-content: center;
+   }
+   .nav_right{
+       gap: 12px;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   ul{
+       gap: 12px;
+       flex-wrap: wrap;
+       justify-content: center ;
+    }
+    li{
+        font-style: 12px;
+   }
+   .textpic{
+       flex-wrap: wrap;
+       align-items: center;
+       text-align: center;
+    justify-content: center;
+   }
+   .hero_text h1{
+       width: auto;
+       font-size: 40px;
+   }
+   .heroimg img{
+       width: 235px;
+   }
+   .cardline{
+       flex-wrap: wrap;
+       gap: 2;
+   }
+   .about {
+       gap: 40px; 
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+   }
+   .aboutleft{
+       align-items: center;
+       justify-content: center;
+   }
+   .about .aboutleft h3 {
+       font-size: 18px;
+       font-weight: 600;
+   }
+   .aboutleft h5 {    
+       width: 209px;
+   }   
+   .aboutleft p{
+       width: 212px;
+   }
+   .aboutright img{
+       width: 231px;
+   }
+   .ourdoctors h3 {
+       padding-bottom: 14px;
+       width: 156px;
+   }
+   .bestmedi h1 {
+       padding: 9%;
+       font-size: 22px;
+        letter-spacing: 0px;
+        width: 214px;
+   }
+   .text_area h1 {
+       font-size: 15px;
+   }
+
+
+
+
+   .cardcontainer2{
+       flex-wrap: wrap;
+       gap:20px;
+       align-items: center;
+       justify-content: center;
+   }
+   
+.card2{
+    width: 255px;
+}
+   .cardline {
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+   }
+   .cardcontainer3{
+       flex-wrap: wrap;
+      
+   }
+   .ourservices h3{
+    font-size: 18px;
+   }
+   .card3{
+       margin-bottom: 44px;
+   }
+   .box1 p{
+    width: 170px;
+   }
+   .card3 img{
+       left: 86px;
+   }
+   .msg p {
+    width: 177px;
+}
+   .boxforform{
+       flex-wrap: wrap;
+       gap: 10px;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+   }
+   .leftside img{
+       position: static;
+       height: 200px;
+       width: 200px;
+   }
+   .rightside{
+       width: 90%;
+   }
+   .rightside h1 {
+      display: none;
+   }
+   .Section9{
+       background: lavender;
+   }
+   .clintsay h1 {
+       font-size: 25px;
+   }
+   .clintdata{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   .footerdetailbox{
+       flex-wrap: wrap;
+       justify-content: center ;
+       gap: 20px;
+   }
+   .footerdetailbox h3 {
+    font-size: 18px;
+}
+   .socialmedia2{
+    justify-content: center;
+   }
+} 
+ @media (min-width: 396px) and (max-width: 575px){  
+   nav{
+       flex-wrap: wrap;
+       white-space: nowrap;    
+       height: auto;
+       gap: 15px;
+       align-items: center;
+       justify-content: center;
+   }
+   .nav_right{
+       gap: 12px;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   ul{
+       gap: 12px;
+       flex-wrap: wrap;
+   }
+   .textpic{
+       flex-wrap: wrap;
+       align-items: center;
+       text-align: center;
+    justify-content: center;
+   }
+   .hero_text h1{
+       width: auto;
+       font-size: 58px;
+   }
+   .heroimg img{
+       width: 350px;
+   }
+   .cardline{
+       flex-wrap: wrap;
+       gap: 2;
+   }
+   .about {
+       gap: 40px; 
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+   }
+   .aboutleft{
+       align-items: center;
+       justify-content: center;
+   }
+   .about .aboutleft h3 {
+       font-size: 18px;
+       font-weight: 600;
+   }
+   .aboutleft h5 {    
+       width: 209px;
+   }   
+   .aboutleft p{
+       width: 322px;
+   }
+   .aboutright img{
+       width: 318px;
+   }
+   .ourdoctors h3 {
+       padding-bottom: 24px;
+   }
+   .bestmedi h1 {
+       padding: 9%;
+       font-size: 22px;
+        letter-spacing: 0px;
+        width: 214px;
+   }
+   .text_area h1 {
+       font-size: 20px;
+   }
+
+
+
+
+   .cardcontainer2{
+       flex-wrap: wrap;
+       gap:20px;
+       align-items: center;
+       justify-content: center;
+   }
+   .cardline {
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+   }
+   .cardcontainer3{
+       flex-wrap: wrap;
+   }
+   .card3{
+       margin-bottom: 44px;
+   }
+   .card3 img{
+       left: 130px;
+   }
+   .boxforform{
+       flex-wrap: wrap;
+       gap: 10px;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+   }
+   .leftside img{
+       position: static;
+       height: 200px;
+       width: 200px;
+   }
+   .rightside{
+       width: 90%;
+   }
+   .rightside h1 {
+      display: none;
+   }
+   .Section9{
+       background: lavender;
+   }
+   .clintsay h1 {
+       font-size: 25px;
+   }
+   .clintdata{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   .footerdetailbox{
+       flex-wrap: wrap;
+       justify-content: center ;
+       gap: 20px;
+   }
+   .socialmedia2{
+    justify-content: center;
+   }
+} 
+ @media (min-width: 576px) and (max-width: 767px){ 
+    
+    nav{
+        flex-wrap: wrap;
+        white-space: nowrap;    
+        height: auto;
+        gap: 15px;
+        align-items: center;
+    }
+    .nav_right{
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    ul{
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    .textpic{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .hero_text h1{
+        width: auto;
+        font-size: 78px;
+    }
+    .heroimg img{
+        width: 400px;
+    }
+    .cardline{
+        flex-wrap: wrap;
+    }
+    .about {
+        gap: 40px; 
+        flex-wrap: wrap;
+    }
+    .cardcontainer2{
+        flex-wrap: wrap;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardline {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardcontainer3{
+        flex-wrap: wrap;
+    }
+    .card3{
+        margin-bottom: 44px;
+    }
+    .card3 img{
+        left: 200px;
+    }
+    .boxforform{
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .leftside img{
+        position: static;
+    }
+    .rightside{
+        width: auto;
+    }
+    .clintsay h1 {
+        font-size: 30px;
+    }
+    .clintdata{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footerdetailbox{
+        flex-wrap: wrap;
+        justify-content: center ;
+        gap: 20px;
+    }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+   
+    nav{
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+    .nav_right,ul{
+        gap: 12px;
+    }
+    .textpic{
+        flex-wrap: wrap;
+    }
+    .cardline{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about {
+        gap: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* .aboutleft{
+        align-items:center;
+    }
+    .aboutleft p{
+        align-items: center;
+    } */
+    .cardcontainer2{
+        flex-wrap: wrap;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .ourdoctors h3 {
+        padding-bottom: 30px;
+    }
+    .cardcontainer3{
+        flex-wrap: wrap;
+    }
+    .card3{
+        margin-bottom: 44px;
+    }
+    .card3 img{
+        left: 264px;
+    }
+    .boxforform{
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .leftside img{
+        position: static;
+    }
+    .rightside{
+        width: auto;
+    }
+    .clintdata{
+        flex-wrap: wrap;
+    }
+    .footerdetailbox{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) { 
+    
+    nav{
+        justify-content: space-between;  
+    }
+    .nav_left{
+        gap: 2px;
+    }
+    li{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .nav_right{
+        gap: 12px;
+    }
+    ul{
+        gap: 12px;
+    }
+    .heroimg img {
+        width: 430px;
+    }
+    .hero_text h1 {
+        font-size: 5rem;
+        width: 436px;
+    }
+    .card p {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .msg p {
+        width: 200px;
+    }
+    .cardline{
+        width: 100%;
+    }
+    
+    .ourdoctors h3 {
+        padding-bottom: 30px;
+    }
+    .footerdetailbox{
+        gap: 0;
+        padding-top: 27px;
+    }
+    .box1 p{
+        width: 177px;
+    }
+    .card3 img {
+        width: 85px;
+        height: 85px;
+        left: 86px;
+    }
+    .leftside img{
+        height: 308px;
+        width: 308px;
+    }
+    .cardcontainer2{
+        justify-content: space-between;
+        gap: 0;
+    }
+    .card2{
+        width: 30%;
+    }
+    .aboutright img{
+        width: 377px;
+
+    }
+ } 
+
+@media (min-width:1200px) and (max-width: 1400px) {
+    
+    .nav_right{
+        gap: 15px;
+    }
+    ul{
+        gap: 15px;
+    }  
+    .hero_text h1{
+    font-size: 6rem;
+    width: 507px;
+    }
+    .heroimg img{
+        width: 500px;
+        
+    }
+    .ourdoctors h3 {
+        padding-bottom: 23px;
+    }
+    .card p{
+        white-space: nowrap;
+    }
+    .card3 img{
+        left: 130px;
+    }
+    .msg p{
+        width: auto;
+    }
+    .footerdetailbox {
+        gap: 0;
+    }
+    .box1 p{
+        font-size: 12px;
+        width: 217px;
+    }
+ }
+
+
+
+
+
+/* Breakpoint at 1400px */
