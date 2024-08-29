@@ -15,3 +15,10 @@ This project is a **fully responsive single-page website** designed for a hospit
 - **HTML5:** For structuring the content.
 - **CSS3:** For styling and creating a responsive layout.
 
+## How it looks
+![full](https://github.com/user-attachments/assets/39eb2aba-266c-4d62-89a2-eccdcb2a4da5)
+![Laptop](https://github.com/user-attachments/assets/2c726606-f7fc-485e-bf44-4c1c10b20ada)
+![Large Laptop](https://github.com/user-attachments/assets/f82fbd75-c71d-4908-a75f-ab475297edc6)
+![Large Mobile](https://github.com/user-attachments/assets/08fb5b37-3ae2-4f70-98da-6c88b27347e9)
+![mobile](https://github.com/user-attachments/assets/30809914-d509-452d-b8f2-f0cb3d2e8eae)
+![small mobile](https://github.com/user-attachments/assets/771154d5-5bea-4eea-baf4-a5141af6b70b)
